@@ -1,8 +1,11 @@
 #main.py
 
 from vehicleClassPackage.vehicleClass import *
+from vehicleClassPackage.Hybrid import Hybrid
+from vehicleClassPackage.motorcycleClass import motorcycle
 
 if __name__ == "__main__":
+    '''
     myCorvette = Vehicle("Car", 120)
     myCorvette.printType()
     maximumspeed = myCorvette.getSpeed()
@@ -17,3 +20,8 @@ if __name__ == "__main__":
     for vehicle in myVehicles:
         vehicle.printType()
         print(vehicle.getSpeed())
+    '''
+    myTesla = Hybrid("hybrid", "tesla", "new", 220)
+    myTesla.printType()
+    
+    
